@@ -1,0 +1,222 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+.containerF {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    /* background-image: url(background_web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-size: 20px;
+    width: 100%;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0,0.5);
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.start {
+    color: whitesmoke;
+    font-weight: 400;
+}
+.last {
+    color: crimson;
+    padding-left: 4px;
+}
+.Navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navigation > li {
+    list-style-type: none;
+    padding: 15px;
+}
+.Navigation > li > a {
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.Navigation >li > a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+.Navigation >li >img:hover {
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    border-radius: 65px;
+    transition: all .3s ease-in-out;
+}
+.Navigation >li >img {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.active {
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 15px;
+}
+.active:hover {
+    color: whitesmoke !important;
+}
+.banner {
+    background-image: url(/asets/background_web-Halaman1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+.banner > img {
+    border-radius: 120px;
+    height: 160px;
+    margin-top: 170px;
+    border: 6px solid whitesmoke;
+}   
+.banner h1 {
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+button > a {
+    list-style-type: none;
+}
+button {
+    margin-top: 50px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 55px;
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+button:hover {
+    background: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transition: .2s ease-in-out;
+}
+h1 span::before {
+    content: "";
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 30px;
+}
+@keyframes gerak {
+    0% {
+        content: "Selamat Datang";
+    }
+    50% {
+        content: "Saya Hayabusa";
+    }
+    100% {
+        content: "Terima Kaih Sudah Masuk Web Saya";
+    }
+}
+.Judul {
+    font-size: 45px;
+    background-color: #222;
+    color: rgb(29, 208, 208);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 5px 12px 0 black;
+    align-items: center;
+}
+.containerCard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(/asets/Background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px;
+    padding: 20px; */
+    gap: 25px;
+}
+.card {
+    background-color: gray;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    box-shadow: 10px 5px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    color: whitesmoke;
+    text-align: center;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    /* text-align: center; */
+}
+.card:hover{
+    width: 320px;
+    height: 500px;
+    transition: .5s ease ;
+    background-color: whitesmoke;
+    color: black;
+ }
+ .card-image {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-size: cover;
+}
+.img1 {
+    background-image: url(/asets/kagura.jpg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.img2 {
+    background-image: url(/asets/hayabusa.jpg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.img3 {
+    background-image: url(/asets/Hanabi.jpg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card .card-image {
+    padding: 25px;
+}
+@media screen and (max-width: 680px) {
+    .card {
+        width: 300px;
+        height: 459px;
+        font-size: 15px;
+    }
+}
