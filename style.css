@@ -13,7 +13,7 @@
     /* background-color: aqua; */
     /* background-image: url(background_web.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover; *//
 }
 .nav {
     display: flex;
@@ -132,7 +132,7 @@ h1 span::before {
     font-size: 30px;
 }
 @keyframes gerak {
-    0% {
+    10% {
         content: "Selamat Datang";
     }
     50% {
@@ -224,3 +224,4 @@ h1 span::before {
         padding: 18px;
     }
 }
+
