@@ -86,7 +86,7 @@
     color: whitesmoke !important;
 }
 .banner {
-    background-image: url(/asets/background_web-Halaman1.jpg); 
+    background-image: url(/asets/background_web-Halaman1.png); 
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -158,7 +158,7 @@ h1 span::before {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url(/asets/Background-3.jpg);
+    background-image: url(/asets/Background-3.png);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -196,17 +196,17 @@ h1 span::before {
     background-size: cover;
 }
 .img1 {
-    background-image: url(/asets/kagura.jpg);
+    background-image: url(/asets/kagura.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .img2 {
-    background-image: url(/asets/hayabusa.jpg);
+    background-image: url(/asets/hayabusa.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .img3 {
-    background-image: url(/asets/Hanabi.jpg);
+    background-image: url(/asets/Hanabi.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
