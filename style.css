@@ -86,7 +86,7 @@
     color: whitesmoke !important;
 }
 .banner {
-    background-image: url(background_web-Halaman1.png); 
+    background-image: url(/asets/background_web-Halaman1.png); 
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -136,10 +136,10 @@ h1 span::before {
         content: "Selamat Datang";
     }
     50% {
-        content: "Saya Hayabusa";
+        content: "Kami Kelompok 11";
     }
     100% {
-        content: "Terima Kaih Sudah Masuk Web Saya";
+        content: "Terima Kasih Sudah Singgah";
     }
 }
 .Judul {
@@ -158,7 +158,7 @@ h1 span::before {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url(Background-3.png);
+    background-image: url(/asets/Background-3.png);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -196,17 +196,17 @@ h1 span::before {
     background-size: cover;
 }
 .img1 {
-    background-image: url(kagura.png);
+    background-image: url(/asets/kagura.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .img2 {
-    background-image: url(hayabusa.png);
+    background-image: url(/asets/hayabusa.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .img3 {
-    background-image: url(Hanabi.png);
+    background-image: url(/asets/Hanabi.png);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -216,12 +216,18 @@ h1 span::before {
 @media screen and (max-width: 600px) {
     .card {
         width: 300px;
-        height: 459px;
-        font-size: 15px;
+        height: 500px;
+    }
+    .Navigation > li > a{
+        font-size: 16px;
     }
     button {
         font-size: 15px;
-        padding: 18px;
+        width: 330px;
+    }
+    .Judul {
+        font-size: 30px;
+        height: 75px;
     }
 }
 
