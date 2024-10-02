@@ -124,7 +124,7 @@ h1 span::before {
     font-size: 30px;
 }
 @keyframes gerak {
-    10% {
+    0% {
         content: "Selamat Datang";
     }
     50% {
@@ -211,10 +211,11 @@ h1 span::before {
         height: 500px;
     }
     .Navigation > li > a{
-        font-size: 16px;
+        font-size: 15px;
+        padding: 9px;
     }
     .Navigation > li {
-        padding-left: 9px;
+        padding-left: 5px;
     }
     button {
         font-size: 15px;
@@ -224,5 +225,15 @@ h1 span::before {
         font-size: 30px;
         height: 75px;
     }
+    .brand {
+        padding: 10px;
+    }
+    .Navigation > li > img {
+        position: relative;
+        padding: 0px;
+        bottom: 65px;
+        right: 160px;
+    }
+    
 }
 
