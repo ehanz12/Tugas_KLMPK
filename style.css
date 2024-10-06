@@ -73,12 +73,13 @@
     background-color: crimson;
     color: whitesmoke;
     padding: 15px;
+    border-radius: 15px;
 }
 .active:hover {
     color: whitesmoke !important;
 }
 .banner {
-    background-image: url(background_web-Halaman1.png); 
+    background-image: url(Hutan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -151,14 +152,14 @@ h1 span::before {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url(Background-3.png);
+    background-image: url(Hutan2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
     /* margin: 20px;
     padding: 20px; */
-    gap: 25px;
+    gap: 20px;
     color: aliceblue;
 }
 .containerCard > img {
@@ -174,6 +175,7 @@ h1 span::before {
     border-radius: 20px;
     color: whitesmoke;
     text-align: center;
+    cursor: pointer;
     /* overflow: hidden; */
     /* overflow: scroll; */
     /* overflow-y: scroll; */
@@ -205,6 +207,11 @@ h1 span::before {
 }
 .img3 {
     background-image: url(Hanabi.png);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.img4 {
+    background-image: url(Burung-hantu.jpeg);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -265,4 +272,6 @@ footer > ul > li  {
         flex-wrap: wrap;
     }
 }
+
+
 
