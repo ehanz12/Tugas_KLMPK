@@ -113,6 +113,7 @@ h1 {
 
 .card-container {
   display: flex;
+  width: 100%;
   /* overflow-x: auto;
   scroll-snap-type: mandatory; */
   flex-wrap: wrap;
