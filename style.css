@@ -196,17 +196,17 @@ h1 span::before {
     background-size: cover;
 }
 .img1 {
-    background-image: url(kagura.png);
+    background-image: url(serigala.webp);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
 .img2 {
-    background-image: url(hayabusa.png);
+    background-image: url(beruang.jpg);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
-.img3 {
-    background-image: url(Hanabi.png);
+.img5 {
+    background-image: url(elang-laut.jpg);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
