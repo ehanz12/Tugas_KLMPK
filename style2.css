@@ -1,0 +1,160 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100vh;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;  */
+    font-size: 20px;
+    width: 100%;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0,0.5);
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.start {
+    color: whitesmoke;
+    font-weight: 400;
+}
+.last {
+    color: crimson;
+    padding-left: 4px;
+}
+.Navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navigation > li {
+    list-style-type: none;
+    padding: 15px;
+}
+.Navigation > li > a {
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.Navigation >li > a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+.Navigation >li >img {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.active {
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+}
+.active:hover {
+    color: whitesmoke !important;
+}
+.background {
+    background-image: url(Hutan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.containerburung {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; 
+    
+}
+.page-2 {
+    flex: 1;
+    display: flex;
+    background-color: #222;
+}
+.Judul-burung {
+    display: flex;
+    height: 80px;
+    background-color: #0ce2bb51;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardburung {
+    width: 400px;
+    /* height: 720px; */
+    justify-items: center;
+    align-items: center;
+    background-color: #bbe20c;
+   box-sizing: border-box;
+   border-radius: 10px;
+   margin-top: 30px;
+   
+}
+.cardburung > img {
+    border-radius: 10px;
+    width: 400px;
+}
+.description {
+    position: relative;
+    background-color: #222222c0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.description > h1 {
+    font-size: 25px;
+    text-decoration: underline;
+    position: relative;
+    left: 30px;
+}
+.description > h1 > br > p{
+    text-align: center;
+    position: relative;
+}
+@media screen and (max-width: 600px) {
+    .Navigation > li > a{
+        font-size: 17px;
+        padding: 9px;
+    }
+    .Navigation > li {
+        padding-left: 5px;
+    }
+    .Navigation > li > img {
+        position: relative;
+        padding: 0px;
+        bottom: 65px;
+        right: 160px;
+    }
+    .Judul-burung {
+        font-size:small;
+    }
+    .description {
+        font-size: small;
+        width: 100%;
+    }
+    .cardburung {
+        width: 360px;
+    }
+    .cardburung > img {
+        width: 360px;
+    }
+}    
