@@ -176,7 +176,7 @@ footer {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 468px) {
+@media (max-width: 670px) {
   h1 {
     font-size: 2rem;
   }
@@ -195,8 +195,30 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 670px) {
   .card {
     flex: 1 1 100%;
   }
+}
+@media screen and (max-width: 670px) {
+  .card {
+      width: 300px;
+      height: 500px;
+  }
+  .Navigation > li > a{
+      font-size: 17px;
+      padding: 9px;
+  }
+  .Navigation > li {
+      padding-left: 5px;
+  }
+  .brand {
+    padding: 10px;
+}
+.Navigation > li > img {
+    position: relative;
+    padding: 0px;
+    bottom: 65px;
+    right: 160px;
+}
 }
