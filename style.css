@@ -122,7 +122,7 @@ h1 span::before {
     animation: gerak infinite 8s ease;
     transform: translateY(-50%);
     color: lightblue;
-    font-size: 30px;
+    font-size: 40px;
 }
 @keyframes gerak {
     0% {
