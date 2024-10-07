@@ -30,8 +30,6 @@ h1 {
 
 .card-container {
   display: flex;
-  /* overflow-x: auto;
-  scroll-snap-type: mandatory; */
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
@@ -44,7 +42,6 @@ h1 {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  max-width: 100%;
   flex: 1 1 calc(33.333% - 20px);
 }
 
@@ -93,13 +90,42 @@ footer {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 468px) {
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 calc(50% - 20px);
+  }
+  
   h1 {
     font-size: 2rem;
   }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px 0;
+  }
 
   .card {
-    flex: 1 1 calc(50% - 20px);
+    flex: 1 1 100%;
+  }
+
+  .card-content h2 {
+    font-size: 1.4rem;
+  }
+
+  .card-content p,
+  .card-content ul {
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 15px 0;
   }
 
   .card-content h2 {
@@ -108,12 +134,10 @@ footer {
 
   .card-content p,
   .card-content ul {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
-}
 
-@media (max-width: 480px) {
-  .card {
-    flex: 1 1 100%;
+  h1 {
+    font-size: 1.5rem;
   }
 }
