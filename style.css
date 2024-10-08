@@ -79,7 +79,8 @@
     color: whitesmoke !important;
 }
 .banner {
-    background-image: url(Hutan.jpg);
+    /* background-image: url(Hutan.jpg); */
+    background-color: #1E3E62;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -152,7 +153,8 @@ h1 span::before {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url(Hutan2.jpg);
+    /* background-image: url(Hutan2.jpg); */
+    background-color: #0B192C;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -169,7 +171,7 @@ h1 span::before {
 .card {
     background-color: gray;
     width: 300px;
-    height: 500px;
+    height: 400px;
     margin: 10px;
     box-shadow: 10px 5px 5px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
@@ -183,7 +185,7 @@ h1 span::before {
 }
 .card:hover{
     width: 320px;
-    height: 500px;
+    height: 430px;
     transition: .5s ease ;
     background-color: whitesmoke;
     color: black;
@@ -240,8 +242,12 @@ footer > ul > li  {
 }
 @media screen and (max-width: 600px) {
     .card {
-        width: 300px;
-        height: 500px;
+        width: 310px;
+        height: 430px;
+    }
+    .card:hover {
+        width: 320px;
+        height: 440px;
     }
     .Navigation > li > a{
         font-size: 17px;

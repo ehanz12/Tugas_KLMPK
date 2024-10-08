@@ -70,7 +70,8 @@ body {
     color: whitesmoke !important;
 }
 .background {
-    background-image: url(Hutan.jpg);
+    /* background-image: url(Hutan.jpg); */
+    background-color: #9AD0C2;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
