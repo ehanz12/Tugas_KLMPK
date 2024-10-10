@@ -185,10 +185,11 @@ h1 span::before {
 }
 .card:hover{
     width: 320px;
-    height: 430px;
-    transition: .5s ease ;
+    height: 420px;
+    transition: .6s ease ;
     background-color: whitesmoke;
     color: black;
+    box-shadow: 10px 10px 10px 5px rgb(66, 227, 203);
  }
  .card-image {
     background-color: aqua;

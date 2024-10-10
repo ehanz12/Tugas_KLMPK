@@ -107,7 +107,7 @@ h1{
 
 /* buat ngatur foto beruang gw */
 .img{
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 
@@ -128,5 +128,8 @@ h1{
         padding: 0px;
         bottom: 65px;
         right: 160px;
+    }
+    .img {
+        width: 300px;
     }
 }
