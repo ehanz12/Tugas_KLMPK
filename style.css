@@ -241,6 +241,9 @@ footer > ul > li  {
 .ftr {
     text-decoration: underline;
 }
+.ftr >li > i{
+    
+} 
 @media screen and (max-width: 600px) {
     .card {
         width: 310px;
